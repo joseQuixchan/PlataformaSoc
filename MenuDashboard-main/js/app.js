@@ -2,8 +2,11 @@ const toggle = document.querySelector(".toggle")
 const menuDashboard = document.querySelector(".menu-dashboard")
 const iconoMenu = toggle.querySelector("i")
 const enlacesMenu = document.querySelectorAll(".enlace")
-$("#SOC").hide();
+$("#SOC1").hide();
 
+function inicio(){
+    location.href = "contenido.html";
+}
 function Ocultar(){
 
 }
@@ -25,5 +28,6 @@ enlacesMenu.forEach(enlace => {
 })
 
 function Ocultar(){
-    $("#SOC").show();
+    $("#SOC1").show();
+    $("#SOC").hide();
 }
